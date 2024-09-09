@@ -11,7 +11,7 @@ const CityDetails = () => {
 
   console.log(cityName);
 
-  const [weather, setWeather] = useState([]);
+  const [weather, setWeather] = useState({});
   const [lanLat, setLanLats] = useState(false);
   const [forecast, setForecast] = useState([]);
 
