@@ -1,0 +1,17 @@
+.main-container {
+    display: flex;
+    justify-content: flex-start;
+    height: 100vh;
+    padding: 3%;
+}
+.weather-details-container {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 50vw;
+}
+.table-body {
+    overflow-y: scroll;
+    height: 100vh;
+}
+  
